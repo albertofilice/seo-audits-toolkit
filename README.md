@@ -55,7 +55,7 @@ docker exec -it osat-server python manage.py loaddata init_data.json
 
 ## Dashboard
 
-You can access the dashboard by going to [localhost:3000](http://localhost:3000)
+You can access the dashboard by going to [localhost:3000](https://lighthouse-dashboard.apps.okd4.filice.eu)
 
 **Login**: admin
 **Password**: admin
@@ -68,19 +68,19 @@ If needed create a `.env` file with information that you would like to change
 
 ### Create organization
 
-You need to go to `Org -> Organization` and create a new organization. You can create as many as you want. Organization are used in order to implement RBAC in the project and only display information about an organization to users of this organization. Here is a quicklinkg to access it [http://localhost:8000/admin/org/website/](http://localhost:8000/admin/org/website/)
+You need to go to `Org -> Organization` and create a new organization. You can create as many as you want. Organization are used in order to implement RBAC in the project and only display information about an organization to users of this organization. Here is a quicklinkg to access it [https://lighthouse-admin.apps.okd4.filice.eu/admin/org/website/](https://lighthouse-admin.apps.okd4.filice.eu/admin/org/website/)
 
 
 ### Add user to organization
 
 Once your organization is created. You need to add your users to this organization. 
-Go to `Organizations -> Organizations Users` and add your users to the organization you want. [http://localhost:8000/admin/organizations/organizationuser/](http://localhost:8000/admin/organizations/organizationuser/)
+Go to `Organizations -> Organizations Users` and add your users to the organization you want. [https://lighthouse-admin.apps.okd4.filice.eu/admin/organizations/organizationuser/](https://lighthouse-admin.apps.okd4.filice.eu/admin/organizations/organizationuser/)
 
 ## Useful Links
 
-- **Webapp** [http://localhost:3000](http://localhost:3000)
-- **Admin Dashboard** [http://localhost:8000/admin](http://localhost:8000/admin)
-- **Swagger like interface** [http://localhost:8000](http://localhost:8000)
+- **Webapp** [https://lighthouse-dashboard.apps.okd4.filice.eu](https://lighthouse-dashboard.apps.okd4.filice.eu)
+- **Admin Dashboard** [https://lighthouse-admin.apps.okd4.filice.eu/admin](https://lighthouse-admin.apps.okd4.filice.eu/admin)
+- **Swagger like interface** [https://lighthouse-admin.apps.okd4.filice.eu](https://lighthouse-admin.apps.okd4.filice.eu)
 
 
 ## Contributions
